@@ -1,0 +1,11 @@
+@url = https://8080-diegomunhoz-sw02104bgam-v6xwmbl7ip2.ws-us116.gitpod.io
+
+GET {{url}}/plataformas
+
+
+POST {{url}}/plataformas
+Content-Type: application/json
+
+{
+    "nome": "XBox"
+}
