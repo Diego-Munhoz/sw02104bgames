@@ -1,4 +1,4 @@
-@url = https://8080-diegomunhoz-sw02104bgam-7r7s15mazuq.ws-us116.gitpod.io
+@url = https://8080-diegomunhoz-sw02104bgam-p9g5v34n9d8.ws-us116.gitpod.io
 
 GET {{url}}/plataformas
 
@@ -7,5 +7,16 @@ POST {{url}}/plataformas
 Content-Type: application/json
 
 {
-    "nome": "Nintendo Switch"
+    "nome": "XBOX Series S"
+}
+
+###
+DELETE {{url}}/plataformas/1
+
+###
+PUT {{url}}/plataformas/3a
+Content-Type: application/json
+
+{
+    "nome": "XBOX Series X"
 }
