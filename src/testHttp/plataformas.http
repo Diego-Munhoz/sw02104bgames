@@ -1,4 +1,4 @@
-@url = https://8080-diegomunhoz-sw02104bgam-p9g5v34n9d8.ws-us116.gitpod.io
+@url = https://8080-diegomunhoz-sw02104bgam-o7l3mih7lqi.ws-us116.gitpod.io
 
 GET {{url}}/plataformas
 
@@ -7,7 +7,7 @@ POST {{url}}/plataformas
 Content-Type: application/json
 
 {
-    "nome": "XBOX Series S"
+    "nome": "PC"
 }
 
 ###

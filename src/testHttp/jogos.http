@@ -1,0 +1,16 @@
+@url = https://8080-diegomunhoz-sw02104bgam-o7l3mih7lqi.ws-us116.gitpod.io
+
+GET {{url}}/jogos
+
+###
+GET {{url}}/jogos/190
+###
+POST {{url}}/jogos
+Content-Type: application/json
+
+{
+    "titulo" : "Hellblade II: Senua's Saga",
+    "plataformas" : [
+        {"id" : 1}
+    ]
+}
